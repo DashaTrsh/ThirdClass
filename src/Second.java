@@ -4,7 +4,7 @@ public class Second {
             double height_m = 1.87;
             double weight_kg = 98;
             double index = service.calculate(height_m, weight_kg);
-            double indexWhole = (int) index;
+            int indexWhole = (int) index;
             System.out.println(indexWhole);
         }
 }
